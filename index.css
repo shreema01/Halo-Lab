@@ -1,0 +1,31 @@
+*{
+  margin:0;
+  padding:0;
+}
+.image{
+  margin:10px 0px;
+}
+.halo-header{
+  background-color:navy;
+  display:flex;
+  justify-content: space-between;
+}
+.nav-menu{
+  text-align:center;
+  display:flex;
+  justify-content: space-between;
+  width:500px;
+  color:white;
+  text-transform: uppercase;
+  margin: 10px 5px;
+  padding:5px 5px;
+
+}
+.nav-menu a{
+  text-decoration:none;
+  color:white;
+  font-weight: 300;
+}
+.nav-menu a:hover {
+  border-bottom: 1px solid pink;
+}
