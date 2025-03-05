@@ -12,9 +12,10 @@ html{
 .halo-header{
   border-top:1px solid  #fffc;
   border-bottom:1px solid #fffc;
-  /* background-color:black; */
   display:flex;
   justify-content: space-between;
+  margin:15px 0px;
+  padding:5px;
 }
 .nav-menu{
   text-align:center;
