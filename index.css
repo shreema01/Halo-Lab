@@ -15,13 +15,12 @@ html{
   display:flex;
   justify-content: space-between;
   margin:20px 60px;
-  padding:5px;
 }
 .nav-menu{
   text-align:center;
   display:flex;
   justify-content: space-between;
-  width:650px;
+  width:725px;
   color:white;
   text-transform: uppercase;
   margin: 10px 5px;
@@ -48,7 +47,7 @@ button{
   border-radius: 200px;
   text-transform: uppercase;
   text-align:center;
-  font-weight: 600;
+  font-weight: 550;
   font-size:15px;
   cursor:pointer;
   background-color: white;
