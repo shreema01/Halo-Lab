@@ -1,12 +1,18 @@
 *{
-  margin:0;
-  padding:0;
+  margin:5px;
+  
 }
+html{
+  background-color: #02021e;
+}
+
 .image{
   margin:10px 0px;
 }
 .halo-header{
-  background-color:navy;
+  border-top:1px solid  #fffc;
+  border-bottom:1px solid #fffc;
+  /* background-color:black; */
   display:flex;
   justify-content: space-between;
 }
