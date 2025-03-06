@@ -1,10 +1,10 @@
 /* Universal Use */
 *{
   margin:5px;
+  font-family:Suisse, sans-serif;
 }
 html{
   background-color: #02021e;
-  font-family:Suisse, sans-serif;
 }
 /* Header Section(Start) */
 .image{
@@ -59,3 +59,26 @@ button{
 }
 /* Header Section(End) */
 /* Main Section(Start) */
+*{
+ /* box-sizing: border-box; */
+}
+.section mod--hero{
+  /* padding:3.5rem 2rem; */
+}
+.home_container{
+  background-image: url(https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/6478406e98d928dcf090e1ca_bg-card-hero_tablet.webp);
+    /* background-position: 0 0;
+    background-repeat: no-repeat; */
+    /* background-size: 100% 100%; */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 4.5rem 2.25rem 2rem 2.5rem;
+    display: flex;
+    position: relative;
+
+  /* padding:2.5rem 1.5rem 1.5rem; */
+  
+
+}
