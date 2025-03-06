@@ -1,3 +1,4 @@
+/* Universal Use */
 *{
   margin:5px;
 }
@@ -5,7 +6,7 @@ html{
   background-color: #02021e;
   font-family:Suisse, sans-serif;
 }
-
+/* Header Section(Start) */
 .image{
   margin:10px 0px;
 }
@@ -56,3 +57,5 @@ button{
   display:flex;
   text-transform:uppercase;
 }
+/* Header Section(End) */
+/* Main Section(Start) */
