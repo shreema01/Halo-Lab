@@ -71,13 +71,5 @@ button{
 /* Header Section(End) */
 /* Main Section(Start) */
 
-.home_container{
-  background-image: url(https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/6478406e98d928dcf090e1ca_bg-card-hero_tablet.webp);
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    height: 100%;
-    padding: 4.5rem 2.25rem 2rem 2.5rem;
-    display: flex;
-    position: relative;
-}
+
+/* Main Section(End) */
