@@ -59,12 +59,12 @@ button{
 }
 /* Header Section(End) */
 /* Main Section(Start) */
-*{
- /* box-sizing: border-box; */
-}
-.section mod--hero{
-  /* padding:3.5rem 2rem; */
-}
+/* *{
+ box-sizing: border-box;
+} */
+/* .section mod--hero{
+  padding:3.5rem 2rem;
+} */
 .home_container{
   background-image: url(https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/6478406e98d928dcf090e1ca_bg-card-hero_tablet.webp);
     /* background-position: 0 0;
