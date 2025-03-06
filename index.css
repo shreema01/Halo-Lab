@@ -70,6 +70,17 @@ button{
 
 /* Header Section(End) */
 /* Main Section(Start) */
+.home-container{
+  background-image: url(https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/6478406e98d928dcf090e1ca_bg-card-hero_tablet.webp);
+  /* width:50%; */
+  background-size: 100% 100%;
+  flex-direction: column;
+  display: flex;
+  position: relative;
 
+}
+.text-color-yellow{
+  color:#fdc448;
+}
 
 /* Main Section(End) */
