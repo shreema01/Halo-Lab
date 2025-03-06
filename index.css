@@ -3,13 +3,17 @@
   margin:5px;
   font-family:Suisse, sans-serif;
 }
+
 html{
   background-color: #02021e;
 }
+
 /* Header Section(Start) */
+
 .image{
   margin:10px 0px;
 }
+
 .halo-header{
   border-top:1px solid  #fffc;
   border-bottom:1px solid #fffc;
@@ -17,6 +21,7 @@ html{
   justify-content: space-between;
   margin:20px 60px;
 }
+
 .nav-menu{
   text-align:center;
   display:flex;
@@ -28,18 +33,22 @@ html{
   padding:5px 5px;
   font-weight: 300;
 }
+
 .nav-menu a{
   text-decoration:none;
   color:white;
   font-weight: 500;
   font-size:15px;
 }
+
 .nav-menu a:hover {
   border-bottom: 1px solid pink;
 }
+
 .call button a{
   text-decoration: none;
 }
+
 button{
   height:45px;
   width: 175px;
@@ -53,23 +62,17 @@ button{
   cursor:pointer;
   background-color: white;
 }
+
 .service{
   display:flex;
   text-transform:uppercase;
 }
+
 /* Header Section(End) */
 /* Main Section(Start) */
-/* *{
- box-sizing: border-box;
-} */
-/* .section mod--hero{
-  padding:3.5rem 2rem;
-} */
+
 .home_container{
   background-image: url(https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/6478406e98d928dcf090e1ca_bg-card-hero_tablet.webp);
-    /* background-position: 0 0;
-    background-repeat: no-repeat; */
-    /* background-size: 100% 100%; */
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
@@ -77,8 +80,4 @@ button{
     padding: 4.5rem 2.25rem 2rem 2.5rem;
     display: flex;
     position: relative;
-
-  /* padding:2.5rem 1.5rem 1.5rem; */
-  
-
 }
