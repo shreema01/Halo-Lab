@@ -82,5 +82,7 @@ button{
 .text-color-yellow{
   color:#fdc448;
 }
-
+.home-cta{
+  border-top: .0625rem solid #ffffff4d;
+}
 /* Main Section(End) */
