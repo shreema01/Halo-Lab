@@ -1,7 +1,8 @@
 /* Universal Use */
 *{
-  margin:5px;
+  margin:10px;
   font-family:Suisse, sans-serif;
+
 }
 /* for main html tag full portion */
 html{
@@ -72,12 +73,12 @@ button{
 /* Main Section(Start) */
 .home-container{
   background-image: url(https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/6478406e98d928dcf090e1ca_bg-card-hero_tablet.webp);
-  width:50%;
+  width:60%;
   background-size: 100% 100%;
   flex-direction: column;
   display: flex;
   position: relative;
-  margin:5px 10px;
+  margin:10px ;
   /* padding:5px 10px; */
   padding: 2.5rem 1.5rem 1.5rem;
 }
@@ -97,5 +98,43 @@ button{
   margin-bottom:0;
   padding:1px;
   text-transform: uppercase;
+}
+.home-cta{
+  display:flex;
+  justify-content: space-between;
+}
+
+.home-cta__block.is--1 {
+  max-width: 17rem;
+  display:flex;
+  font-size: var(--14);
+}
+.home-cta__block.is--1_image{
+    height:55px;
+    /* width:45px; */
+}
+.text{
+  color:white;
+  display:flex;
+  width:800px;
+  /* margin:3px; */
+}
+.Request_portion{
+  text-transform: uppercase;
+  text-align:end;
+  
+}
+.request_button{
+  height:45px;
+    width: 275px;
+    /* margin:10px ;
+    padding:5px; */
+    /* border-radius: 200px; */
+    text-transform: uppercase;
+    text-align:center;
+    font-weight: 550;
+    font-size:12px;
+    background-color: #fdc448;
+    
 }
 /* Main Section(End) */
