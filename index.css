@@ -122,11 +122,14 @@ button{
 .Request_portion{
   text-transform: uppercase;
   text-align:end;
+  /* margin:5px;
+  padding:5px; */
+  margin:10px;
   
 }
 .request_button{
   height:45px;
-    width: 275px;
+    width: 250px;
     /* margin:10px ;
     padding:5px; */
     /* border-radius: 200px; */
@@ -135,6 +138,7 @@ button{
     font-weight: 550;
     font-size:12px;
     background-color: #fdc448;
+    margin:10px;
     
 }
 /* Main Section(End) */
