@@ -142,6 +142,9 @@ button{
     border:none;
 }
 .video_playing{
+  text-align:start;
   display:flex;
+  width:40%;
+  height:40%;
 }
 /* Main Section(End) */
