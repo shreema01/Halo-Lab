@@ -144,7 +144,6 @@ button{
 .video_playing{
   text-align:start;
   display:flex;
-  width:40%;
-  height:40%;
+  justify-content: space-between; 
 }
 /* Main Section(End) */
