@@ -141,4 +141,7 @@ button{
     margin:10px;
     border:none;
 }
+.video_playing{
+  display:flex;
+}
 /* Main Section(End) */
