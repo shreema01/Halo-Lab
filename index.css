@@ -9,11 +9,11 @@ html{
 }
 
 /* Header Section(Start) */
-.image{
+.header_logo{
   margin:16px 0px;
 }
 
-.halo-header{
+.header{
   border-top:1px solid  #fffc;
   border-bottom:1px solid #fffc;
   display:flex;
@@ -21,7 +21,7 @@ html{
   margin:20px 60px;
 }
 
-.nav-menu{
+.navbar_menu{
   text-align:center;
   display:flex;
   justify-content: space-between;
@@ -33,14 +33,14 @@ html{
   font-weight: 300;
 }
 
-.nav-menu a{
+.navbar_menu a{
   text-decoration:none;
   color:white;
   font-weight: 500;
   font-size:15px;
 }
 
-.nav-menu a:hover {
+.navbar_menu a:hover {
   border-bottom: 1px solid pink;
 }
 
@@ -62,7 +62,7 @@ button{
   background-color: white;
 }
 
-.service{
+.navbar_menu_section{
   display:flex;
   text-transform:uppercase;
 }
