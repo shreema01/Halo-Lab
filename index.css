@@ -71,28 +71,27 @@ html{
 /* Main Section(Start) */
 .Top_Rank{
   background-image: url(https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/6478406e98d928dcf090e1ca_bg-card-hero_tablet.webp);
-  width:60%;
+  width:55%;
   background-size: 100% 100%;
   flex-direction: column;
   display: flex;
   position: relative;
-  margin:10px ;
+  margin:30px;
   padding: 2.5rem 1.5rem 1.5rem;
 }
 .Top_Rank_percentage{
   color:#fdc448;
+  margin:0;
+  padding:0;
 }
 .Top_Rank_Last_Section{
   border-top: .0625rem solid #ffffff4d;
 }
 .Top_Rank_Text{
-  margin:5px 5px;
+  margin-top:15px;
   padding:5px 10px;
   color:white;
   font-size: 80px;
-  margin-top: 0;
-  margin-bottom:0;
-  padding:1px;
   text-transform: uppercase;
 }
 .Top_Rank_Last_Section{
@@ -108,17 +107,20 @@ html{
   font-size: var(--14);
 }
 .Top_Rank_Last_Section_image{
-    height:55px;
+    height:75px;
+    margin:0;
+    margin-top: 15px;
+    padding:0;
 }
 .Top_Rank_Last_Section_explain_text{
   color:white;
   display:flex;
-  width:800px;
+  width:600px;
 }
 .request_portion{
   text-transform: uppercase;
   text-align:end;
-  margin:10px;
+  margin-left:300px;
   justify-content:end;
 }
 .request_button{
@@ -129,7 +131,7 @@ html{
     font-weight: 550;
     font-size:12px;
     background-color: #fdc448;
-    margin:10px;
+    /* margin:10px; */
     border:none;
     border-radius: 200px;
     
