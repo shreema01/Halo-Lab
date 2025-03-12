@@ -1,14 +1,14 @@
-/* Universal Use */
 *{
   margin:10px;
   font-family:Suisse, sans-serif;
 }
-/* for main html tag full portion */
+
 html{
   background-color: #02021e;
 }
 
 /* Header Section(Start) */
+
 .header_logo{
   margin:16px 0px;
 }
@@ -69,7 +69,7 @@ html{
 /* Header Section(End) */
 
 /* Main Section(Start) */
-.home-container{
+.Top_Rank{
   background-image: url(https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/6478406e98d928dcf090e1ca_bg-card-hero_tablet.webp);
   width:60%;
   background-size: 100% 100%;
@@ -77,20 +77,18 @@ html{
   display: flex;
   position: relative;
   margin:10px ;
-  /* padding:5px 10px; */
   padding: 2.5rem 1.5rem 1.5rem;
 }
-.text-color-yellow{
+.Top_Rank_percentage{
   color:#fdc448;
 }
-.home-cta{
+.Top_Rank_Last_Section{
   border-top: .0625rem solid #ffffff4d;
 }
-.home-heading{
+.Top_Rank_Text{
   margin:5px 5px;
   padding:5px 10px;
   color:white;
-  /* line-height: 1; */
   font-size: 80px;
   margin-top: 0;
   margin-bottom:0;
@@ -104,35 +102,27 @@ html{
   padding:0;
 }
 
-.home-cta__block.is--1 {
+.Top_Rank_Last_Section_text {
   max-width: 17rem;
   display:flex;
   font-size: var(--14);
 }
-.home-cta__block.is--1_image{
+.Top_Rank_Last_Section_image{
     height:55px;
-    /* width:45px; */
 }
-.text{
+.Top_Rank_Last_Section_explain text{
   color:white;
   display:flex;
   width:800px;
-  /* margin:3px; */
 }
-.Request_portion{
+.Request_Portion{
   text-transform: uppercase;
   text-align:end;
-  /* margin:5px;
-  padding:5px; */
   margin:10px;
-  
 }
-.request_button{
+.Request_Button{
   height:45px;
     width: 250px;
-    /* margin:10px ;
-    padding:5px; */
-    /* border-radius: 200px; */
     text-transform: uppercase;
     text-align:center;
     font-weight: 550;
@@ -141,6 +131,7 @@ html{
     margin:10px;
     border:none;
 }
+
 .video_playing{
   text-align:start;
   display:flex;
