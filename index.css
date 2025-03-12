@@ -95,7 +95,7 @@ html{
   padding:1px;
   text-transform: uppercase;
 }
-.home-cta{
+.Top_Rank_Last_Section{
   display:flex;
   justify-content: space-between;
   margin:0;
@@ -119,6 +119,7 @@ html{
   text-transform: uppercase;
   text-align:end;
   margin:10px;
+  justify-content:end;
 }
 .request_button{
     height:45px;
@@ -131,6 +132,7 @@ html{
     margin:10px;
     border:none;
     border-radius: 200px;
+    
 }
 
 /* .video_playing{
