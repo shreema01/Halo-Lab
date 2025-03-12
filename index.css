@@ -160,10 +160,10 @@ html{
   display:flex;
 }
 /* Video Playing(End) */
-/* Trusted By(Start) */ 
+/* Trusted By-Logo(Start) */ 
 .trusted{
   padding: var(--34) var(--48) var(--32);
-  border: var(--1) solid var(--white-20);
+  border: 1px solid #34354a;
   flex-flow: column;
   justify-content: center;
   align-items: stretch;
@@ -238,5 +238,6 @@ img {
 img {
   border: 0;
 }
+/* Trusted By-Logo(End) */ 
 
 /* Main Section(End) */
