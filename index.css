@@ -69,6 +69,7 @@ html{
 /* Header Section(End) */
 
 /* Main Section(Start) */
+/* Top Rank portion(Start) */
 .Top_Rank{
   background-image: url(https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/6478406e98d928dcf090e1ca_bg-card-hero_tablet.webp);
   width:55%;
@@ -102,27 +103,31 @@ html{
 }
 
 .Top_Rank_Last_Section_text {
-  max-width: 17rem;
+  /* max-width: 17rem; */
   display:flex;
   font-size: var(--14);
 }
+
 .Top_Rank_Last_Section_image{
     height:75px;
     margin:0;
     margin-top: 15px;
     padding:0;
 }
+
 .Top_Rank_Last_Section_explain_text{
   color:white;
   display:flex;
   height:100px;
 }
+
 .request_portion{
   text-transform: uppercase;
   text-align:end;
   margin-left:200px;
   justify-content:end;
 }
+
 .request_button{
     height:45px;
     width: 200px;
@@ -135,19 +140,103 @@ html{
     border-radius: 200px;
     
 }
-
+/* Top Rank portion(End) */
+/* For Top rank and video playing section(start) */
 .side_by_side_first_two_section{
   display:flex;
   width:100%;
 }
+/* For Top rank and video playing section(End) */
 
+/* Video Playing(Start) */
 .video_playing_section{
   text-align:start;
   display:flex;
   justify-content: space-between; 
 }
+
 .video_upload{
   width:92%;
   display:flex;
 }
+/* Video Playing(End) */
+/* Trusted By(Start) */ 
+.trusted{
+  padding: var(--34) var(--48) var(--32);
+  border: var(--1) solid var(--white-20);
+  flex-flow: column;
+  justify-content: center;
+  align-items: stretch;
+  display: flex;
+  position: relative;
+}
+.trusted_title_wrap{
+  color:  #ffffff80;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  inset: 0% 0% auto;
+}
+.trusted_title{
+  background-color: var(--blue-dark);
+  position: relative;
+}
+
+.columns.mod--trusted{
+  align-items: center;
+  font-size: 1rem;
+}
+.columns {
+  justify-content: space-between;
+  align-items: stretch;
+  display: flex;
+}
+.columns__col {
+  flex: 1;
+}
+
+.runlogo__img.is--nokia {
+  width: 7.375em;
+}
+
+.runlogo__img.is--bumble {
+  width: 9.0625em;
+}
+
+.runlogo__img.is--schibsted {
+  width: 8.75em;
+}
+.runlogo__img.is--opera {
+  width: 7.2em;
+}
+.runlogo__img.is--bonterra {
+  width: 10.6875em;
+}
+.runlogo__img.is--zoom {
+  width: 7em;
+}
+
+.runlogo__img {
+  flex: none;
+  width: 8em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  display: inline-block;
+}
+img {
+  border: 0;
+}
+
 /* Main Section(End) */
