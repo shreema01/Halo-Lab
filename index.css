@@ -110,18 +110,18 @@ html{
 .Top_Rank_Last_Section_image{
     height:55px;
 }
-.Top_Rank_Last_Section_explain text{
+.Top_Rank_Last_Section_explain_text{
   color:white;
   display:flex;
   width:800px;
 }
-.Request_Portion{
+.request_portion{
   text-transform: uppercase;
   text-align:end;
   margin:10px;
 }
-.Request_Button{
-  height:45px;
+.request_button{
+    height:45px;
     width: 250px;
     text-transform: uppercase;
     text-align:center;
@@ -130,11 +130,12 @@ html{
     background-color: #fdc448;
     margin:10px;
     border:none;
+    border-radius: 200px;
 }
 
-.video_playing{
+/* .video_playing{
   text-align:start;
   display:flex;
   justify-content: space-between; 
-}
+} */
 /* Main Section(End) */
