@@ -80,14 +80,17 @@ html{
   margin:30px;
   padding: 2.5rem 1.5rem 1.5rem;
 }
+
 .Top_Rank_percentage{
   color:#fdc448;
   margin:0;
   padding:0;
 }
+
 .Top_Rank_Last_Section{
   border-top: .0625rem solid #ffffff4d;
 }
+
 .Top_Rank_Text{
   margin-top:15px;
   padding:5px 10px;
@@ -95,6 +98,7 @@ html{
   font-size: 80px;
   text-transform: uppercase;
 }
+
 .Top_Rank_Last_Section{
   display:flex;
   justify-content: space-between;
@@ -103,7 +107,6 @@ html{
 }
 
 .Top_Rank_Last_Section_text {
-  /* max-width: 17rem; */
   display:flex;
   font-size: var(--14);
 }
@@ -162,8 +165,9 @@ html{
 /* Video Playing(End) */
 /* Trusted By-Logo(Start) */ 
 .trusted{
-  padding: var(--34) var(--48) var(--32);
-  border: 1px solid #34354a;
+  margin:40px;
+  border: 0.5px solid #34354a;
+  border-radius: 35px;
   flex-flow: column;
   justify-content: center;
   align-items: stretch;
@@ -239,5 +243,9 @@ img {
   border: 0;
 }
 /* Trusted By-Logo(End) */ 
+/* Trusted By-Details(Start) */
+
+
+
 
 /* Main Section(End) */
