@@ -102,8 +102,8 @@ html{
 .Top_Rank_Last_Section{
   display:flex;
   justify-content: space-between;
-  margin:0;
-  padding:0;
+  margin:0px;
+  padding:0px;
 }
 
 .Top_Rank_Last_Section_text {
