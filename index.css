@@ -6,7 +6,6 @@
 html{
   background-color: #02021e;
 }
-
 /* Header Section(Start) */
 
 .header_logo{
@@ -68,6 +67,7 @@ html{
 }
 /* Header Section(End) */
 
+
 /* Main Section(Start) */
 /* Top Rank portion(Start) */
 .Top_Rank{
@@ -108,7 +108,7 @@ html{
 
 .Top_Rank_Last_Section_text {
   display:flex;
-  font-size: var(--14);
+  font-size: 20px;
 }
 
 .Top_Rank_Last_Section_image{
@@ -127,7 +127,7 @@ html{
 .request_portion{
   text-transform: uppercase;
   text-align:end;
-  margin-left:200px;
+  margin-left:190px;
   justify-content:end;
 }
 
