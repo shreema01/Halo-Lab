@@ -1,8 +1,9 @@
+/* for universal(*)*/
 *{
   margin:10px;  
   font-family:Suisse, sans-serif;
 }
-
+/* for whole html */
 html{
   background-color: #02021e;
 }
