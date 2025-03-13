@@ -173,7 +173,7 @@ html{
   align-items: stretch;
   display: flex;
   position: relative;
-  height:auto;
+  /* height:auto; */
 }
 .trusted_title_wrap{
   color:  #ffffff80;
@@ -260,6 +260,42 @@ img {
   width: 9.875rem;
   display: block;
 }
-
+.awards__faunders-text {
+  /* line-height: 1; */
+  /* transition: transform .6s;
+  transform: translate(0); */
+  color:white;
+  margin:20px;
+  margin-top:0px;
+  padding:5px;
+}
+.heading-4 {
+  letter-spacing: -.055rem;
+  text-transform: none;
+  font-size: 2.75rem;
+  font-weight: 500;
+  line-height: 1.1;
+  position: relative;
+}
+p {
+  margin-bottom: 0;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.space-heading-4 {
+  float: right;
+  width: 60%;
+  height: auto;
+  color:white;
+  display:flex;
+  text-align:start;
+  justify-content: end;
+  position:relative;
+}
+.flex{
+  display:flex;
+}
 
 /* Main Section(End) */
