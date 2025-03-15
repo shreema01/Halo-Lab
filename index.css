@@ -488,6 +488,9 @@ img {
   margin-left: -1rem;
   margin-right: -1rem;
   padding-bottom: 1rem;
+  background-repeat: no-repeat;
+  width:full;
+
 }
 .columns {
   justify-content: space-between;
