@@ -469,4 +469,55 @@ img {
   background-image: url(https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/651d7079ee055feca2955f2b_bg-blue-01.webp);
   color:white;
 } */
+.section {
+  padding: 3.5rem 2rem;
+  position: relative;
+}
+.container {
+  z-index: 2;
+  width: 100%;
+  max-width: 82rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.card__container {
+  background-image: linear-gradient(180deg, transparent 20%, gray 100%), url(https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/66daf908c6f9b0f21742c34a_card-works_mobile.avif);
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  padding-bottom: 1rem;
+}
+.columns {
+  justify-content: space-between;
+  align-items: stretch;
+  display: flex;
+}
+
+.heading-1 {
+    letter-spacing: -.01em;
+    text-transform: uppercase;
+    font-size: 7rem;
+    font-weight: 500;
+    line-height: .9;
+}
+.columns__col.mod--card-head {
+  position: relative;
+}
+.service__video-wrap {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+.pointer-events-off {
+  pointer-events: none;
+}
+.service__video {
+  z-index: 0;
+  background-color: #e9e9ea;
+  position: relative;
+  overflow: hidden;
+}
 /* Main Section(End) */
