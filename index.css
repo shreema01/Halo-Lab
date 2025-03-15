@@ -311,6 +311,8 @@ p {
 
 /* new(15.3.25) */
 .awards-container {
+  /* new */
+  display:flex;
   margin-left: -1rem;
   margin-right: -1rem;
   padding-left: 1rem;
@@ -320,12 +322,15 @@ p {
   transform: translate(0);
 }
 .swiper.mod--awards, .swiper.mod--service-releted {
+  display:flex;
   overflow: visible;
 }
 .swiper, .swiper-wrapper {
+  display:flex;
   user-select: none;
 }
 .swiper {
+  display:flex;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -419,5 +424,9 @@ img {
   padding:5px;
   margin:5px;
   margin-top:0px;
+}
+
+.flex-portion{
+  display: flex;
 }
 /* Main Section(End) */
