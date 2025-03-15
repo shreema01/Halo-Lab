@@ -489,7 +489,7 @@ img {
   margin-right: -1rem;
   padding-bottom: 1rem;
   background-repeat: no-repeat;
-  width:full;
+  width:100%;
 
 }
 .columns {
@@ -507,6 +507,7 @@ img {
 }
 .columns__col.mod--card-head {
   position: relative;
+  
 }
 .service__video-wrap {
   justify-content: flex-end;
