@@ -255,8 +255,9 @@ img {
   align-items: flex-start;
   font-size: .875rem;
   line-height: 1.2;
-  display: flex
-;
+  display: flex;
+  padding-left:15px;
+
 }
 .awards__founders-ava {
   width: 9.875rem;
@@ -267,25 +268,32 @@ img {
   /* transition: transform .6s;
   transform: translate(0); */
   color:white;
-  margin:20px;
-  margin-top:0px;
-  padding:5px;
+  margin-left:0px;
+  /* margin-top:0px; */
+  padding-left:35px;
+  padding-top:10px;
 }
 .heading-4 {
   letter-spacing: -.055rem;
   text-transform: none;
-  font-size: 2.75rem;
+  font-size: 50px;
   font-weight: 500;
   line-height: 1.1;
   position: relative;
+  /* padding:5px; */
+  justify-content:start;
+  text-align: left;
+  margin-left:0px;
+  
 }
-p {
+/* p {
   margin-bottom: 0;
+
 }
 p {
   margin-top: 0;
-  margin-bottom: 10px;
-}
+ 
+} */
 .space-heading-4 {
   float: right;
   width: 60%;
@@ -295,6 +303,7 @@ p {
   text-align:start;
   justify-content: end;
   position:relative;
+  padding-left:15px;
 }
 .flex{
   display:flex;
