@@ -330,7 +330,7 @@ p {
   user-select: none;
 }
 .swiper {
-  display:flex;
+  /* display:flex; */
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -469,7 +469,7 @@ img {
   background-image: url(https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/651d7079ee055feca2955f2b_bg-blue-01.webp);
   color:white;
 } */
-.section {
+/* .section {
   padding: 3.5rem 2rem;
   position: relative;
 }
@@ -523,5 +523,25 @@ img {
   background-color: #e9e9ea;
   position: relative;
   overflow: hidden;
+} */
+
+.parent_services{
+  background-image:  linear-gradient(180deg, transparent 19%,white 20%),url(https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/66daf90866a77b15674b6735_card-works_tablet.avif);
+  background-repeat: no-repeat;
+  height:100%;
+  width:99%;
+  margin-left:10px;
+  margin-right:10px;
+  /* padding-left:10px; */
+  border-radius:3px;
+  justify-content: center;
+
+}
+.heading{
+  margin:20px;
+  padding:10px;
+  text-transform: uppercase;
+  font-size:100px;
+  
 }
 /* Main Section(End) */
