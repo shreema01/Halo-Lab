@@ -122,14 +122,15 @@ html{
 
 .Top_Rank_Last_Section_explain_text{
   color:white;
-  display:flex;
+  /* display:flex; */
   height:100px;
+  /* width:100%; */
 }
 
 .request_portion{
   text-transform: uppercase;
   text-align:end;
-  margin-left:190px;
+  margin-left:150px;
   justify-content:end;
 }
 
@@ -525,17 +526,61 @@ img {
   overflow: hidden;
 } */
 
-.parent_services{
-  background-image:  linear-gradient(180deg, transparent 19%,white 20%),url(https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/66daf90866a77b15674b6735_card-works_tablet.avif);
+.parent_services {
+  background-image:  url(https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/66daf90866a77b15674b6735_card-works_tablet.avif);
+  display: flex;          /* Makes items appear side by side */
+  align-items: start;    /* Aligns items vertically */
+  gap: 800px;              /* Adds space between elements */
+  background-repeat: no-repeat;
+  height:800px;
+  width:full;
+  border-radius: 10px;
+  margin-left:10px;
+  margin-right:10px;
+  overflow: hidden;
+}
+
+.heading {
+  font-size: 80px;        /* Adjust font size as needed */
+  font-weight: bold;
+  margin:15px;
+  padding:15px;
+  text-transform: uppercase;
+  
+}
+.video_services {
+  position: absolute;
+  margin:200px;
+  padding:30px;
+  margin-left:0px;
+  top:50;
+  bottom:50;
+}
+.video_services a {
+  text-decoration: none;
+  color: white;
+  background: #007bff;
+  /* padding: 10px 15px; */
+  border-radius: 5px;
+  margin-bottom:90px; 
+  margin-top:300px;
+  padding:10px;
+  text-transform: uppercase;
+  justify-content: center;
+  
+}
+
+/* .parent_services{
+  background-image:  url(https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/66daf90866a77b15674b6735_card-works_tablet.avif);
   background-repeat: no-repeat;
   height:100%;
   width:99%;
   margin-left:10px;
   margin-right:10px;
-  /* padding-left:10px; */
+
   border-radius:3px;
   justify-content: center;
-  /* display:flex; */
+
 
 }
 .heading{
@@ -548,5 +593,5 @@ img {
 .video_services{
   height:50px;
   width:50px;
-}
+} */
 /* Main Section(End) */
