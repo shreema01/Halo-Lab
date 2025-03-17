@@ -1,4 +1,4 @@
-/* for universal(*)*/
+/* for universal */
 *{
   margin:10px;  
   font-family:Suisse, sans-serif;
@@ -8,7 +8,6 @@ html{
   background-color: #02021e;
 }
 /* Header Section(Start) */
-
 .header_logo{
   margin:16px 0px;
 }
@@ -40,7 +39,7 @@ html{
   font-size:15px;
 }
 
-.navbar_menu a:hover {
+.navbar_menu a:hover{
   border-bottom: 1px solid pink;
 }
 
@@ -107,7 +106,7 @@ html{
   padding:0px;
 }
 
-.Top_Rank_Last_Section_text {
+.Top_Rank_Last_Section_text{
   display:flex;
   font-size: 20px;
 }
@@ -132,23 +131,24 @@ html{
 }
 
 .request_button{
-    height:45px;
-    width: 200px;
-    text-transform: uppercase;
-    text-align:center;
-    font-weight: 550;
-    font-size:12px;
-    background-color: #fdc448;
-    border:none;
-    border-radius: 200px;
-    
+  height:45px;
+  width: 200px;
+  text-transform: uppercase;
+  text-align:center;
+  font-weight: 550;
+  font-size:12px;
+  background-color: #fdc448;
+  border:none;
+  border-radius: 200px;
 }
 /* Top Rank portion(End) */
+
 /* For Top rank and video playing section(start) */
 .side_by_side_first_two_section{
   display:flex;
   width:100%;
 }
+
 /* For Top rank and video playing section(End) */
 /* Video Playing(Start) */
 .video_playing_section{
@@ -216,12 +216,15 @@ html{
 .runlogo__img.is--schibsted {
   width: 8.75em;
 }
+
 .runlogo__img.is--opera {
   width: 7.2em;
 }
+
 .runlogo__img.is--bonterra {
   width: 10.6875em;
 }
+
 .runlogo__img.is--zoom {
   width: 7em;
 }
@@ -261,7 +264,6 @@ img {
   line-height: 1.2;
   display: flex;
   padding-left:15px;
-
 }
 
 .awards__founders-ava {
@@ -275,6 +277,7 @@ img {
   padding-left:35px;
   padding-top:10px;
 }
+
 .heading-4 {
   letter-spacing: -.055rem;
   text-transform: none;
@@ -285,7 +288,6 @@ img {
   justify-content:start;
   text-align: left;
   margin-left:0px;
-  
 }
 
 .space-heading-4 {
@@ -299,6 +301,7 @@ img {
   position:relative;
   padding-left:15px;
 }
+
 .flex{
   display:flex;
 }
@@ -426,7 +429,7 @@ img {
   margin-top:0px;
 }
 
-.circles__text_two{
+.circles__text_two {
   pointer-events: none;
   flex-direction: column;
   align-items: start;
@@ -438,7 +441,7 @@ img {
   margin-top:0px;
 }
 
-.flex-portion{
+.flex-portion {
   display: flex;
 }
 
@@ -486,7 +489,6 @@ img {
   margin:15px;
   padding:15px;
   text-transform: uppercase;
-  
 }
 
 .video_services {
@@ -508,7 +510,6 @@ img {
   padding:10px;
   text-transform: uppercase;
   justify-content: center;
-  
 }
 
 .divisions_services{
