@@ -520,7 +520,7 @@ img {
   align-items: center;
   display:flex;
   border-radius: 50px;
-  width:250px;
+  width:230px;
 }
 
 .reviews_label_separate {
@@ -539,6 +539,15 @@ img {
 }
 
 .review_heading{
+  letter-spacing: -.055rem;
+  text-transform: none;
+  font-size: 45px;
+  font-weight:500;
+  line-height: 1.1;
+  position: relative;
+  justify-content: start;
+  text-align: left;
+  margin-left: 10px;
   color:white;
 }
 /* Main Section(End) */
