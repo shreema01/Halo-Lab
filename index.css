@@ -603,11 +603,9 @@ img {
 }
 
 .article_text{
-  /* margin:5px; */
   padding-left:20px;
   color:#02021e;
   font-weight: 600;
-  /* justify-content: center; */
   text-align: center;
 }
 
