@@ -3,10 +3,12 @@
   margin:10px;  
   font-family:Suisse, sans-serif;
 }
+
 /* for whole html */
 html{
   background-color: #02021e;
 }
+
 /* Header Section(Start) */
 .header_logo{
   margin:16px 0px;
@@ -69,6 +71,7 @@ html{
 
 /* Main Section(Start) */
 /* Top Rank portion(Start) */
+
 .Top_Rank{
   background-image: url(https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/6478406e98d928dcf090e1ca_bg-card-hero_tablet.webp);
   width:55%;
@@ -186,7 +189,7 @@ html{
 }
 
 .trusted_title{
-  background-color: var(--blue-dark);
+  background-color: rgb(76, 76, 92);
   position: relative;
 }
 
@@ -539,10 +542,9 @@ img {
   align-items: center;
   display:flex;
   border-radius: 50px;
-  width:230px;
-  margin-left:40px;
-  
-
+  width:290px;
+  height:100px;
+  margin-left:20px;
 }
 
 .reviews_label_separate {
@@ -567,9 +569,9 @@ img {
   font-weight:500;
   line-height: 1.1;
   position: relative;
-  justify-content: start;
+  justify-content:end;
   text-align: left;
-  margin-left: 40px;
+  margin-left: 600px;
   color:white;
   width:45%;
 }
@@ -589,6 +591,11 @@ img {
   color:white;
   font-size:50px;
   width:45%;
+}
+.review_container{
+  display:flex;
+  /* align-items: center; */
+  gap: 15px; /* Adjust space between elements */
 }
 /* .review_divisions{
   display:flex;
