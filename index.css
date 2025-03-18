@@ -257,6 +257,9 @@ img {
 /* Trusted By-Logo(End) */ 
 
 /* Trusted By-Details(Start) */
+.flex-testing{
+  display:flex;
+}
 .awards__founders {
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
@@ -270,30 +273,36 @@ img {
 }
 
 .awards__founders-ava {
-  width: 9.875rem;
+  width:700px;
   display: block;
 }
 
 .awards__faunders-text {
   color:white;
-  margin-left:0px;
-  padding-left:35px;
+  margin-left:15px;
+  padding-left:0px;
   padding-top:10px;
 }
 
 .heading-4 {
-  letter-spacing: -.055rem;
+  /* letter-spacing: -.055rem; */
   text-transform: none;
   font-size: 50px;
   font-weight: 500;
   line-height: 1.1;
-  position: relative;
-  justify-content:start;
+  /* position: relative; */
+  /* justify-content:space-between; */
   text-align: left;
-  margin-left:0px;
+  margin-left:200px;
+  /* padding-left:50px; */
+  color:white;
+  width:80%;
+  align-items: end;
+  /* flex-direction: column; */
+
 }
 
-.space-heading-4 {
+/* .space-heading-4 {
   float: right;
   width: 60%;
   height: auto;
@@ -303,7 +312,7 @@ img {
   justify-content: end;
   position:relative;
   padding-left:15px;
-}
+} */
 
 .flex{
   display:flex;
