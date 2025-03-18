@@ -587,5 +587,46 @@ img {
   display:flex;
   gap: 15px;
 }
+.our_service_flex{
+  display: flex;
+}
+/* hot article testing */
+.article_label{
+  background-color: #f5f5f7;
+  border:0.2px solid #fffc;
+  align-items: center;
+  display:flex;
+  border-radius: 50px;
+  width:200px;
+  height:100px;
+  margin-left:20px;
+}
 
+.article_text{
+  /* margin:5px; */
+  padding-left:20px;
+  color:#02021e;
+  font-weight: 600;
+  /* justify-content: center; */
+  text-align: center;
+}
+
+.article_heading{
+  letter-spacing: -.055rem;
+  text-transform: none;
+  font-size: 45px;
+  font-weight:500;
+  line-height: 1.1;
+  position: relative;
+  justify-content:end;
+  text-align:left;
+  margin-left: 600px;
+  /* padding:100px; */
+  color:white;
+  width:45%;
+}
+.article_container{
+  display:flex;
+  gap: 20px;
+}
 /* Main Section(End) */
