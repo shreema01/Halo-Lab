@@ -285,34 +285,19 @@ img {
 }
 
 .heading-4 {
-  /* letter-spacing: -.055rem; */
   text-transform: none;
   font-size: 50px;
   font-weight: 500;
   line-height: 1.1;
-  /* position: relative; */
-  /* justify-content:space-between; */
   text-align: left;
-  margin-left:200px;
-  /* padding-left:50px; */
+  margin-left:235px;
+  margin-top:0px;
   color:white;
   width:80%;
   align-items: end;
-  /* flex-direction: column; */
+  flex-direction: column;
 
 }
-
-/* .space-heading-4 {
-  float: right;
-  width: 60%;
-  height: auto;
-  color:white;
-  display:flex;
-  text-align:start;
-  justify-content: end;
-  position:relative;
-  padding-left:15px;
-} */
 
 .flex{
   display:flex;
@@ -591,15 +576,15 @@ img {
 }
 
 .review_man_text_one{
-  font-weight: 700;
+  font-weight: 600;
   color:white;
-  font-size:100px;
+  font-size:60px;
 }
 
 .review_men_text_two{
-  font-weight: 400;
+  font-weight: 450;
   color:white;
-  font-size:50px;
+  font-size:40px;
   width:45%;
 }
 
