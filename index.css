@@ -522,6 +522,7 @@ img {
   display:flex;
   border-radius: 50px;
   width:230px;
+
 }
 
 .reviews_label_separate {
@@ -550,5 +551,22 @@ img {
   text-align: left;
   margin-left: 10px;
   color:white;
+  width:45%;
+}
+.review_man_image{
+  height:25%;
+  width: 25%;
+  display: inline-block;
+}
+.review_man_text_one{
+  font-weight: 700;
+  color:white;
+  font-size:100px;
+}
+.review_men_text_two{
+  font-weight: 400;
+  color:white;
+  font-size:50px;
+  width:45%;
 }
 /* Main Section(End) */
