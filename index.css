@@ -500,7 +500,6 @@ img {
   width:96%;
   border-radius: 10px;
   margin-left:40px;
-  /* margin-right:100px; */
   overflow: hidden;
 }
 
@@ -581,25 +580,24 @@ img {
   width: 25%;
   display: inline-block;
 }
+
 .review_man_text_one{
   font-weight: 700;
   color:white;
   font-size:100px;
 }
+
 .review_men_text_two{
   font-weight: 400;
   color:white;
   font-size:50px;
   width:45%;
 }
+
 .review_container{
   display:flex;
   /* align-items: center; */
   gap: 15px; /* Adjust space between elements */
 }
-/* .review_divisions{
-  display:flex;
-  width:30%;
-  height:50%;
-} */
+
 /* Main Section(End) */
