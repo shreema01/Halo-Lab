@@ -553,6 +553,9 @@ img {
   color:white;
   width:45%;
 }
+.review_man_section{
+  /* display: flex; */
+}
 .review_man_image{
   height:25%;
   width: 25%;
@@ -568,5 +571,11 @@ img {
   color:white;
   font-size:50px;
   width:45%;
+
+}
+.review_divisions{
+  display:flex;
+  width:30%;
+  height:50%;
 }
 /* Main Section(End) */
