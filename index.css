@@ -1,6 +1,6 @@
 /* for universal */
 *{
-  margin:10px;  
+  margin:10px;
   font-family:Suisse, sans-serif;
 }
 
@@ -115,10 +115,10 @@ html{
 }
 
 .Top_Rank_Last_Section_image{
-    height:75px;
-    margin:0px;
-    margin-top: 15px;
-    padding:0px;
+  height:75px;
+  margin:0px;
+  margin-top: 15px;
+  padding:0px;
 }
 
 .Top_Rank_Last_Section_explain_text{
@@ -480,7 +480,7 @@ img {
 }
 
 .parent_services {
-  background-image:  url(https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/66daf90866a77b15674b6735_card-works_tablet.avif);
+  background-image:url(https://cdn.prod.website-files.com/63f38a8c92397a024fcb9ae8/66daf90866a77b15674b6735_card-works_tablet.avif);
   display: flex;         
   align-items: start;   
   gap: 800px;            
